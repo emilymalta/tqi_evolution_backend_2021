@@ -24,7 +24,7 @@
    
     No detalhe do empréstimo, devemos retornar: código do empréstimo, valor, quantidade de parcelas, data da primeira parcela, e-mail do cliente e renda do cliente.
 
-:wrench:<h3>TECNOLOGIAS</h3>
+<h3>TECNOLOGIAS</h3>
 
 
 :small_blue_diamond:Java 11, IDE IntelliJ
@@ -53,11 +53,11 @@
 
 
 
-:large_blue_diamond: <h3>ANNOTATIONS</h3>
+<h3>ANNOTATIONS</h3>
 
 
 
-:small_blue_diamond:<h4>entities</h4> - _irá nos mostrar que as classes contidas no projeto serão mapeadas no banco de dados, através do @Entity do JPA._
+<h4>entities</h4> - _irá nos mostrar que as classes contidas no projeto serão mapeadas no banco de dados, através do @Entity do JPA._
 
 _@Entity:responsável pelo mapeamento da classe na tabela do banco de dados, tomando cada atributo em uma coluna._
 
@@ -86,20 +86,20 @@ _@JoinColumn: especifica a coluna FOREIGN KEY, indica que a entidade é a respon
 _@JsonFormat: especifica o campo de data que será recebido no Json._
 
 
-:small_blue_diamond:<h4>repositories</h4> - _as classes que aqui pertencem possuem a função de comunicar com o banco de dados diretamente através do Hibernate._
+<h4>repositories</h4> - _as classes que aqui pertencem possuem a função de comunicar com o banco de dados diretamente através do Hibernate._
 
 
 _@Repository: informa ao spring que a classe é um componente do projeto._
 
 
-:small_blue_diamond:<h4>exceptions</h4> - 
+<h4>exceptions</h4> - 
 
 _BusinessException:
 
 _EntityNotFoundException:
 
 
-:small_blue_diamond:<h4>services</h4> - _estão nesse pacote as classes que contém a lógica do problema, ou seja, a parte de processamento dos dados será realizada no pacote services._
+<h4>services</h4> - _estão nesse pacote as classes que contém a lógica do problema, ou seja, a parte de processamento dos dados será realizada no pacote services._
 
 _@Service: informa ao spring que a classe é um componente de serviço._
 
@@ -108,7 +108,7 @@ _@Autowrided: responsável pela injeção de dependência._
 _@Override: informa ao compilador que a intenção é sobreescrever._
 
 
-:small_blue_diamond:<h4>controllers</h4> - _ contém as classes de contato externo do projeto, é nele que conseguimos as informações presentes no projeto ou inserir novas._
+<h4>controllers</h4> - _ contém as classes de contato externo do projeto, é nele que conseguimos as informações presentes no projeto ou inserir novas._
 
 _@RestController: marca a classe como um complemento de controller como a notação @Controller para o spring e por fim, atribui a responsabilidade das transformações envolvendo json e objeto assim como a @ResponseBody faria. Então, @RestController = @Controller + @ResponseBody_
 
@@ -137,7 +137,7 @@ _@RequestBody: define o objeto que será passado como corpo da requisição._
 _@PathVariable: define como um dos parâmetros de busca que será passado, essa maneira define a variável sendo passada diretamente na URL._
 
 
-:small_blue_diamond:<h4>configs</h4> - _
+<h4>configs</h4> - _
 
 _@Component:
 
@@ -160,7 +160,7 @@ _@Configuration:
 _@Bean:
 
 
-:small_blue_diamond:<h4>dtos</h4> - 
+<h4>dtos</h4> - 
 
 _@AllArgsConstructor: responsável por gerar um construtor com 1 parâmetro para cada atributo de sua classe._
  
@@ -174,7 +174,7 @@ _@NotBlank: torna obrigatório o preenchimento dos campos username e password va
 
 
 
-:small_blue_diamond:<h4>handlers</h4> - 
+<h4>handlers</h4> - 
 
 _@ControllerAdvice:
 
@@ -188,12 +188,12 @@ _@Component:
 _@Value:
 
 
-:heavy_check_mark:<h3>TESTE</h3>
+<h3>TESTE</h3>
 
 
 Será utilizado o Postman, ferramenta capaz de comunicar diretamente com os endpoints da API.
 
-<h3>POST</h3>
+<h4>POST</h4>
 Essa requisição está criando um dado novo.
 
 STATUS 201 (status que retorna quando a requisição é bem sucedida)
@@ -208,7 +208,7 @@ STATUS 400 (status que retorna quando a requisição falha)
 
 
  
-<h3>GET</h3>
+<h4>GET</h4>
 Essa requisição esta fazendo a leitura de dados.
 
 STATUS 200 (status que retorna quando a requisição é bem sucedida)
