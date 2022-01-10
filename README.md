@@ -92,12 +92,6 @@ _@JsonFormat: especifica o campo de data que será recebido no Json._
 _@Repository: informa ao spring que a classe é um componente do projeto._
 
 
-:small_blue_diamond:**_exceptions - 
-
-_BusinessException:
-
-_EntityNotFoundException:
-
 
 :small_blue_diamond:**_services - estão nesse pacote as classes que contém a lógica do problema, ou seja, a parte de processamento dos dados será realizada no pacote services._**
 
