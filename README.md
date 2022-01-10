@@ -49,3 +49,35 @@
 :small_blue_diamond:PostgreSQL: servidor de banco de dados de código aberto para o armazenamento seguro de informações
  
 :small_blue_diamond:Postman: ferramenta para testar cada funcionalidade enviando dados em formato json para a api.
+
+**Annotations**
+
+**_Entities_** irá nos mostrar que as classes contidas no projeto serão mapeadas no banco de dados, através do @Entity do JPA.
+
+_@Entity:responsável pelo mapeamento da classe na tabela do banco de dados, tomando cada atributo em uma coluna._
+
+_@Setter: responsável por criar o setter de cada campo em que estiver denotada._
+
+_@Getter: responsável por criar o getter de cada campo em que estiver denotada ou de todos os atributos se estiverem no nível da classe._
+
+_@AllArgsConstructor: responsável por gerar um construtor com 1 parâmetro para cada atributo de sua classe._
+
+_@NoArgsConstructor: responsável por gerar um construtor sem parâmetros._
+
+_@Id: define a chave primária da nossa entidade._
+
+_@GeneratedValue: determina a maneira com que o valor de cada id será gerado, nosso caso representa um valor incremental._
+
+_@NotBlank: vai tornar obrigatório o preenchimento dos campos valindando informações não nulas e não vazias._
+
+_@Email: realiza a verificação se o email é válido._
+
+_@CPF: realiza a verificação se o CPF é válido._
+
+_@Column: especifica o mapeamento entre um atributo de entidade básico e a coluna da tabela no banco de dados._
+
+_@JoinColumn: especifica a coluna FOREIGN KEY, indica que a entidade é a responsável pelo relacionamento._
+
+_@JsonFormat: especifica o campo de data que será recebido no Json._
+
+ 
