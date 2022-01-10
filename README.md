@@ -51,7 +51,7 @@
 :small_blue_diamond:Postman: ferramenta para testar cada funcionalidade enviando dados em formato json para a api.
 
 
-:large_blue_diamond:**ANNOTATIONS**
+:large_blue_diamond:### ANNOTATIONS ###
 
 **_Entities_** irá nos mostrar que as classes contidas no projeto serão mapeadas no banco de dados, através do @Entity do JPA.
 
