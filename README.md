@@ -185,4 +185,33 @@ _@Component:
 
 _@Value:
 
+
+:heavy_check_mark:**TESTE**
+
+
+Será utilizado o Postman, ferramenta capaz de comunicar diretamente com os endpoints da API.
+
+**_POST_** 
+Essa requisição está criando um dado novo.
+
+STATUS 201 (status que retorna quando a requisição é bem sucedida)
+
+- Cadastro de cliente
+- Cadastro de empréstimo
+
+STATUS 400 (status que retorna quando a requisição falha)
+
+- Cadastro de cliente
+- Cadastro de empréstimo
+
+
  
+**_GET_** 
+Essa requisição esta fazendo a leitura de dados.
+
+STATUS 200 (status que retorna quando a requisição é bem sucedida)
+
+- Listar os empréstimos pela id do cliente.
+- Listar os detalhes de cada empréstimo.
+
+STATUS 500 (status que retorna quando a requisição falha).
