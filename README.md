@@ -24,7 +24,7 @@
    
     No detalhe do empréstimo, devemos retornar: código do empréstimo, valor, quantidade de parcelas, data da primeira parcela, e-mail do cliente e renda do cliente.
 
-:wrench: <h3>TECNOLOGIAS</h3>
+:wrench:<h3>TECNOLOGIAS</h3>
 
 
 :small_blue_diamond:Java 11, IDE IntelliJ
