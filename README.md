@@ -24,7 +24,7 @@
    
     No detalhe do empréstimo, devemos retornar: código do empréstimo, valor, quantidade de parcelas, data da primeira parcela, e-mail do cliente e renda do cliente.
 
-<h3>:wrench:TECNOLOGIAS</h3>
+<h3>:wrench: TECNOLOGIAS</h3>
 
 
 :small_blue_diamond:Java 11, IDE IntelliJ
@@ -53,7 +53,7 @@
 
 
 
-<h3>:black_circle:ANNOTATIONS</h3>
+<h3>:black_circle: ANNOTATIONS</h3>
 
 
 
@@ -188,7 +188,7 @@ _@Component:
 _@Value:
 
 
-<h3>:heavy_check_mark:TESTE</h3>
+<h3>:heavy_check_mark: TESTE</h3>
 
 
 Será utilizado o Postman, ferramenta capaz de comunicar diretamente com os endpoints da API.
