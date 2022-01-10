@@ -110,7 +110,7 @@ _@RestController: marca a classe como um complemento de controller como a notaç
 _@RequestMapping: define a rota utilizada para acessar o controller marcado._
 
 
-_@CrossOrigin:
+_@CrossOrigin: disponibiliza a 
 
 
 _@Autowrided: responsável pela injeção de dependência._
@@ -131,9 +131,9 @@ _@RequestBody: define o objeto que será passado como corpo da requisição._
 _@PathVariable: define como um dos parâmetros de busca que será passado, essa maneira define a variável sendo passada diretamente na URL._
 
 
-:small_blue_diamond:**_configs_** - 
+:small_blue_diamond:**_configs - são as configurações do spring._**
 
-_@Component:
+_@Component: marca a classe como um componente do spring._
 
 
 _@Override:informa ao compilador que a intenção é sobreescrever._
@@ -142,25 +142,25 @@ _@Override:informa ao compilador que a intenção é sobreescrever._
 _@Autowride: responsável pela injeção de dependências._
 
 
-_@EnableMethodSecurity:
+_@EnableMethodSecurity: mostra em que ponto a autenticação será feita._
 
 
-_@EnableWebSecurity:
+_@EnableWebSecurity: marca pro spring habilitar uma configuração personalizada._
 
 
-_@Configuration:
+_@Configuration: marca a classe como uma classe de configuração do spring._
 
 
-_@Bean:
+_@Bean: mostra que a classe pode ser usada como dependência de outras classes do projeto._
 
 
-:small_blue_diamond:**_dtos - 
+:small_blue_diamond:**_dtos - são os objetos de transferência de dados._**
 
 _@AllArgsConstructor: responsável por gerar um construtor com 1 parâmetro para cada atributo de sua classe._
  
 _@NoArgsConstructor: responsável por gerar um construtor sem parâmetros._
  
-_@Builder:
+_@Builder: maneira funcional de montar um construtor de um objeto._
 
 _@Data: responsável popr gerar um conjunto de anotações implícitas nela mesma._
  
@@ -168,18 +168,18 @@ _@NotBlank: torna obrigatório o preenchimento dos campos username e password va
 
 
 
-:small_blue_diamond:**_handlers - 
+:small_blue_diamond:**_handlers - contém classes que resolvem situações internas do próprio sistema._**
 
-_@ControllerAdvice:
-
-
-_@ExceptionHandler:
+_@ControllerAdvice: responsável por cuidar de requisições que são exceções._
 
 
-_@Component:
+_@ExceptionHandler: especifica a exceção que será tratada no método._
 
 
-_@Value:
+_@Component: marca a classe como um componente do spring._
+
+
+_@Value: demonstra que o spring tem a responsabilidade de injetar o valor na variável, esse valor esta em arquivos de configuração do projeto._
 
 
 <h3>:heavy_check_mark: TESTE</h3>
