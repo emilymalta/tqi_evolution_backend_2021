@@ -206,8 +206,8 @@ STATUS 400 (status que retorna quando a requisição falha)
 
 
  
-**_GET_** 
-Essa requisição esta fazendo a leitura de dados.
+<h3>**_GET_**</h3>
+> Essa requisição esta fazendo a leitura de dados.
 
 STATUS 200 (status que retorna quando a requisição é bem sucedida)
 
