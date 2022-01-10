@@ -51,7 +51,7 @@
 :small_blue_diamond:Postman: ferramenta para testar cada funcionalidade enviando dados em formato json para a api.
 
 
-:large_blue_diamond: ## ANNOTATIONS 
+:large_blue_diamond:**ANNOTATIONS**
 
 **_Entities_** irá nos mostrar que as classes contidas no projeto serão mapeadas no banco de dados, através do @Entity do JPA.
 
@@ -81,4 +81,8 @@ _@JoinColumn: especifica a coluna FOREIGN KEY, indica que a entidade é a respon
 
 _@JsonFormat: especifica o campo de data que será recebido no Json._
 
- 
+
+**_Repositories_** - as classes que aqui pertencem possuem a função de comunicar com o banco de dados diretamente através do Hibernate.
+
+
+_@Repository: informa ao spring que a classe é um componente do projeto._
