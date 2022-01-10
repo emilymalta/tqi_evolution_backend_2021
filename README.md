@@ -27,11 +27,11 @@
 <h3>:wrench: TECNOLOGIAS</h3>
 
 
-:small_blue_diamond:Java 11, IDE IntelliJ
+:small_blue_diamond:Java 8, IDE IntelliJ
  
 :small_blue_diamond:Spring Web (Spring MVC): esse framework vai ajudar no desenvolvimento de aplicações web, ou seja, vai criar a aplicação web incluído no seu contexto o RESTful
  
-:small_blue_diamond:Maven: cuida das dependências do projeto, é a ferramenta que ficará responsável por trazer pacotes externos para o escopo do projeto.
+:small_blue_diamond:Maven: responsável pelas dependências do projeto, é a ferramenta que ficará responsável por trazer pacotes externos para o escopo do projeto.
  
 :small_blue_diamond:Spring devtools: irá realizar o LiveReload, disparando um refresh toda vez que alterarmos algum recurso no projeto, otimizando o tempo/desenvolvimento.
  
@@ -46,6 +46,8 @@
 :small_blue_diamond:Docker: ter o sistema rodando em containers torna mais fácil tanto rodar o sistema localmente quando o deploy em produção.
  
 :small_blue_diamond:Lombok: vai ajudar no desenvolvimento das aplicações, como na utilização de annotations para gerar getters, setters e construtores
+
+:small_blue_diamond:Swagger: auxilia na documentação da API, para acessar a UI: http://localhost:8080/swagger-ui.html#/
  
 :small_blue_diamond:PostgreSQL: servidor de banco de dados de código aberto para o armazenamento seguro de informações
  
