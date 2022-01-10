@@ -51,9 +51,9 @@
 :small_blue_diamond:Postman: ferramenta para testar cada funcionalidade enviando dados em formato json para a api.
 
 
-:large_blue_diamond:**ANNOTATIONS**
+:large_blue_diamond: **ANNOTATIONS**
 
-**_Entities_** irá nos mostrar que as classes contidas no projeto serão mapeadas no banco de dados, através do @Entity do JPA.
+**_entities_** - _irá nos mostrar que as classes contidas no projeto serão mapeadas no banco de dados, através do @Entity do JPA._
 
 _@Entity:responsável pelo mapeamento da classe na tabela do banco de dados, tomando cada atributo em uma coluna._
 
@@ -82,7 +82,105 @@ _@JoinColumn: especifica a coluna FOREIGN KEY, indica que a entidade é a respon
 _@JsonFormat: especifica o campo de data que será recebido no Json._
 
 
-**_Repositories_** - as classes que aqui pertencem possuem a função de comunicar com o banco de dados diretamente através do Hibernate.
+**_repositories_** - _as classes que aqui pertencem possuem a função de comunicar com o banco de dados diretamente através do Hibernate._
 
 
 _@Repository: informa ao spring que a classe é um componente do projeto._
+
+
+**_exceptions_** - 
+
+_BusinessException:
+
+_EntityNotFoundException:
+
+
+**_services_** - _estão nesse pacote as classes que contém a lógica do problema, ou seja, a parte de processamento dos dados será realizada no pacote services._
+
+_@Service: informa ao spring que a classe é um componente de serviço._
+
+_@Autowrided: responsável pela injeção de dependência._
+
+_@Override: informa ao compilador que a intenção é sobreescrever._
+
+
+**_controllers_** - _ contém as classes de contato externo do projeto, é nele que conseguimos as informações presentes no projeto ou inserir novas._
+
+_@RestController: marca a classe como um complemento de controller como a notação @Controller para o spring e por fim, atribui a responsabilidade das transformações envolvendo json e objeto assim como a @ResponseBody faria. Então, @RestController = @Controller + @ResponseBody_
+
+
+_@RequestMapping: define a rota utilizada para acessar o controller marcado._
+
+
+_@CrossOrigin:
+
+
+_@Autowrided: responsável pela injeção de dependência._
+
+
+_@PostMapping: predefinição para definir o método da requisição (POST)._
+
+
+_@GetMapping: predefinição para definir o método da requisição (GET)._
+
+
+_@DeleteMapping: faz o mapeamento das solicitações HTTP DELETE._
+
+
+_@RequestBody: define o objeto que será passado como corpo da requisição._
+
+
+_@PathVariable: define como um dos parâmetros de busca que será passado, essa maneira define a variável sendo passada diretamente na URL._
+
+
+**_configs_** - _
+
+_@Component:
+
+
+_@Override:informa ao compilador que a intenção é sobreescrever._
+
+
+_@Autowride: responsável pela injeção de dependências._
+
+
+_@EnableMethodSecurity:
+
+
+_@EnableWebSecurity:
+
+
+_@Configuration:
+
+
+_@Bean:
+
+
+**_dtos_** - 
+
+_@AllArgsConstructor: responsável por gerar um construtor com 1 parâmetro para cada atributo de sua classe._
+ 
+_@NoArgsConstructor: responsável por gerar um construtor sem parâmetros._
+ 
+_@Builder:
+
+_@Data: responsável popr gerar um conjunto de anotações implícitas nela mesma._
+ 
+_@NotBlank: torna obrigatório o preenchimento dos campos username e password validando informações não nulas e não vazias._
+
+
+
+**_handlers_** - 
+
+_@ControllerAdvice:
+
+
+_@ExceptionHandler:
+
+
+_@Component:
+
+
+_@Value:
+
+ 
