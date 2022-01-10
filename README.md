@@ -57,7 +57,7 @@
 
 
 
-<h4>entities</h4> - _irá nos mostrar que as classes contidas no projeto serão mapeadas no banco de dados, através do @Entity do JPA._
+:small_blue_diamond:**_entities - irá nos mostrar que as classes contidas no projeto serão mapeadas no banco de dados, através do @Entity do JPA._**
 
 _@Entity:responsável pelo mapeamento da classe na tabela do banco de dados, tomando cada atributo em uma coluna._
 
@@ -86,20 +86,20 @@ _@JoinColumn: especifica a coluna FOREIGN KEY, indica que a entidade é a respon
 _@JsonFormat: especifica o campo de data que será recebido no Json._
 
 
-<h4>repositories</h4> - _as classes que aqui pertencem possuem a função de comunicar com o banco de dados diretamente através do Hibernate._
+:small_blue_diamond:**_repositories - as classes que aqui pertencem possuem a função de comunicar com o banco de dados diretamente através do Hibernate._**
 
 
 _@Repository: informa ao spring que a classe é um componente do projeto._
 
 
-<h4>exceptions</h4> - 
+:small_blue_diamond:**_exceptions - 
 
 _BusinessException:
 
 _EntityNotFoundException:
 
 
-<h4>services</h4> - _estão nesse pacote as classes que contém a lógica do problema, ou seja, a parte de processamento dos dados será realizada no pacote services._
+:small_blue_diamond:**_services - estão nesse pacote as classes que contém a lógica do problema, ou seja, a parte de processamento dos dados será realizada no pacote services._**
 
 _@Service: informa ao spring que a classe é um componente de serviço._
 
@@ -108,7 +108,7 @@ _@Autowrided: responsável pela injeção de dependência._
 _@Override: informa ao compilador que a intenção é sobreescrever._
 
 
-<h4>controllers</h4> - _ contém as classes de contato externo do projeto, é nele que conseguimos as informações presentes no projeto ou inserir novas._
+:small_blue_diamond:**_controllers - contém as classes de contato externo do projeto, é nele que conseguimos as informações presentes no projeto ou inserir novas._**
 
 _@RestController: marca a classe como um complemento de controller como a notação @Controller para o spring e por fim, atribui a responsabilidade das transformações envolvendo json e objeto assim como a @ResponseBody faria. Então, @RestController = @Controller + @ResponseBody_
 
@@ -137,7 +137,7 @@ _@RequestBody: define o objeto que será passado como corpo da requisição._
 _@PathVariable: define como um dos parâmetros de busca que será passado, essa maneira define a variável sendo passada diretamente na URL._
 
 
-<h4>configs</h4> - _
+:small_blue_diamond:**_configs_** - 
 
 _@Component:
 
@@ -160,7 +160,7 @@ _@Configuration:
 _@Bean:
 
 
-<h4>dtos</h4> - 
+:small_blue_diamond:**_dtos - 
 
 _@AllArgsConstructor: responsável por gerar um construtor com 1 parâmetro para cada atributo de sua classe._
  
@@ -174,7 +174,7 @@ _@NotBlank: torna obrigatório o preenchimento dos campos username e password va
 
 
 
-<h4>handlers</h4> - 
+:small_blue_diamond:**_handlers - 
 
 _@ControllerAdvice:
 
