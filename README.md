@@ -130,6 +130,10 @@ _@RequestBody: define o objeto que será passado como corpo da requisição._
 
 _@PathVariable: define como um dos parâmetros de busca que será passado, essa maneira define a variável sendo passada diretamente na URL._
 
+_@Api: declara qual a api será mostrada._
+
+_@ApiOperation: descreve o que vai ser executado._
+
 
 :small_blue_diamond:**_configs - são as configurações do spring._**
 
