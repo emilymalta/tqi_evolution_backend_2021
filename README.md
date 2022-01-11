@@ -79,11 +79,9 @@ _@NotBlank: vai tornar obrigatório o preenchimento dos campos valindando inform
 
 _@Email: realiza a verificação se o email é válido._
 
-_@CPF: realiza a verificação se o CPF é válido._
-
 _@Column: especifica o mapeamento entre um atributo de entidade básico e a coluna da tabela no banco de dados._
 
-_@JoinColumn: especifica a coluna FOREIGN KEY, indica que a entidade é a responsável pelo relacionamento._
+_@OneToOne: estabelece uma relação 1 para 1 com outra entidade._
 
 _@JsonFormat: especifica o campo de data que será recebido no Json._
 
@@ -112,7 +110,7 @@ _@RestController: marca a classe como um complemento de controller como a notaç
 _@RequestMapping: define a rota utilizada para acessar o controller marcado._
 
 
-_@CrossOrigin: disponibiliza a 
+_@CrossOrigin: disponibiliza a aplicação para ser chamada de uma origem que não seja local._
 
 
 _@Autowrided: responsável pela injeção de dependência._
